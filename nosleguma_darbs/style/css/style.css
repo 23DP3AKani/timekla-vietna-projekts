@@ -1,0 +1,116 @@
+* {
+    font-family: Arial;
+    margin: 0 2%;
+}
+
+.logo{
+    color: #D8B8FF;
+    font-family: 'Jaldi', sans-serif;
+    font-size: 64px;
+    padding-left: 11%;
+    padding-top: 4%;
+}
+
+.header-section {
+    background-image: linear-gradient(to left, #716ECC, #141240 65%);
+    display: flex;
+    border-bottom: 5px solid #2d0924;
+    height: 20vh;
+}
+
+.hero-section {
+    background: #FFFFFF;
+    display: flex;
+    box-shadow: inset 0px 60px 20px -5px rgba(0, 0, 0, 0.3);
+    height: 78vh;
+}
+
+.info-section {
+    padding: 20% 50px;
+    text-align: center;
+}
+
+#name-surname {
+    font-size: 64px;
+    width: 100%;
+}
+
+#dp-grupa {
+    font-size: 28px;
+    width: 100%;
+}
+
+#info-button {
+    background-image: linear-gradient(to right, #150B8D, #2E00D4, #150B8D);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 22px;
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+#icon {
+    width: 65vh;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+.divider-section {
+    background-image: linear-gradient(to left, #716ECC, #141240 65%);
+    display: flex;
+    border-top: 5px solid #2d0924;
+    border-bottom: 5px solid #2d0924;
+    height: 10vh;
+}
+
+.main-section {
+    background: #FFFFFF;
+    display: flex;
+    box-shadow: inset 0px 60px 20px -5px rgba(0, 0, 0, 0.3);
+    height: 40vh;
+}
+
+.guide-section {
+    background: #051434;
+    display: flex;
+    height: 46vh;
+}
+
+.download-section {
+    background: #0b618c;
+    display: flex;
+    height: 46vh;
+}
+
+.footer-section {
+    background: #8972cb;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px;
+}
+
+.nav-button {
+    background-image: linear-gradient(to right, #150B8D, #2E00D4, #150B8D);
+    color: #FFFFFF;
+    border: 3px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 22px;
+    width: 145px;
+    height: 45px;
+    text-align: center;
+}
+
+.nav-button:hover {
+    background: #1abc9c;
+}
+
+nav {
+    width: 80vh;
+    padding-left: 10%;
+    padding-top: 6%;
+}
