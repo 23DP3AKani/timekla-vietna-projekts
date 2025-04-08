@@ -22,7 +22,7 @@
     background: #FFFFFF;
     display: flex;
     box-shadow: inset 0px 60px 20px -5px rgba(0, 0, 0, 0.3);
-    height: 78vh;
+    height: 80vh;
 }
 
 .info-section {
@@ -31,32 +31,64 @@
 }
 
 #name-surname {
-    font-size: 64px;
+    font-size: 3.33vw;
     width: 100%;
 }
 
 #dp-grupa {
-    font-size: 28px;
+    font-size: 1.46vw;
     width: 100%;
 }
+
 
 #info-button {
     background-image: linear-gradient(to right, #150B8D, #2E00D4, #150B8D);
     color: #FFFFFF;
     border: none;
-    border-radius: 30px;
+    border-radius: 1.56vw;
     cursor: pointer;
-    font-size: 22px;
-    width: 250px;
-    height: 35px;
+    font-size: 1.15vw;
+    width: 13.02vw;
+    height: 1.82vw;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 1vw;
 }
 
+
 #icon {
-    width: 65vh;
-    margin-left: 7%;
-    margin-top: 2%;
+    width: auto;
+    height: 60vh;
+    margin: 6vw 1vw 5vw 12vw;
+}
+
+
+.circles {
+    position: relative;
+}
+
+#circle1 {
+    width: 13vw;
+    top: -16.4vw;
+    left: -7.8vw;
+}
+
+#circle2 {
+    width: 15vw;
+    top: -18.2vw;
+    left: -13vw;
+}
+
+#circle3 {
+    width: 15vw;
+    top: -8.9vw;
+    left: -28.6vw;
+    filter: blur(4);
+}
+
+#circle4 {
+    width: 15vw;
+    top: -16.4vw;
+    left: 5.2vw;
 }
 
 .divider-section {
@@ -67,22 +99,50 @@
     height: 10vh;
 }
 
+.divider-section2 {
+    background-image: linear-gradient(to left, #716ECC, #141240 65%);
+    display: flex;
+    border-top: 2px solid #2d0924;
+    border-bottom: 2px solid #2d0924;
+    height: 3vh;
+}
+
 .main-section {
     background: #FFFFFF;
-    display: flex;
     box-shadow: inset 0px 60px 20px -5px rgba(0, 0, 0, 0.3);
+    text-align: center;
     height: 40vh;
 }
 
-.guide-section {
-    background: #051434;
-    display: flex;
-    height: 46vh;
+#main-header {
+    padding: 4.5%;
+    padding-bottom: 2%;
+}
+
+#main-paragraph {
+    font-family: 'Kanit';
+    font-size: 1.67vw;
+    margin: 0 auto;
+    width: 60vw;
+}
+
+.screenshots-section {
+    background: #FFFFFF;
+    text-align: center;
+    height: 32vh;
 }
 
 .download-section {
-    background: #0b618c;
-    display: flex;
+    background: #FFFFFF;
+    box-shadow: inset 0px 60px 20px -5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    height: 20vh;
+}
+
+.guide-section {
+    background: #FFFFFF;
+    box-shadow: inset 0px 60px 20px -5px rgba(0, 0, 0, 0.3);
+    text-align: center;
     height: 46vh;
 }
 
@@ -96,12 +156,12 @@
 .nav-button {
     background-image: linear-gradient(to right, #150B8D, #2E00D4, #150B8D);
     color: #FFFFFF;
-    border: 3px solid black;
-    border-radius: 30px;
+    border: 0.156vw solid black;
+    border-radius: 1.56vw;
     cursor: pointer;
-    font-size: 22px;
-    width: 145px;
-    height: 45px;
+    font-size: 1.15vw;
+    width: 7.55vw;
+    height: 2.34vw;
     text-align: center;
 }
 
