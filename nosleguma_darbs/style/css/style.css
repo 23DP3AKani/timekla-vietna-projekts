@@ -4,7 +4,7 @@
 }
 
 .logo{
-    color: #D8B8FF;
+    color: #EAD8FF;
     font-family: 'Jaldi', sans-serif;
     font-size: 64px;
     padding-left: 11%;
@@ -15,6 +15,7 @@
     background-image: linear-gradient(to left, #716ECC, #141240 65%);
     display: flex;
     border-bottom: 5px solid #2d0924;
+    max-width: 96%;
     height: 20vh;
 }
 
@@ -53,7 +54,6 @@
     text-align: center;
     margin-top: 1vw;
 }
-
 
 #icon {
     width: auto;
@@ -117,6 +117,8 @@
 #main-header {
     padding: 4.5%;
     padding-bottom: 2%;
+    font-weight: 100;
+    letter-spacing: 0.2em;
 }
 
 #main-paragraph {
@@ -132,11 +134,38 @@
     height: 32vh;
 }
 
+.screenshots {
+    width: 450px;
+    height: auto;
+    border: 2px solid black;
+    margin: 1vw 1vw;
+    background-color: red;
+}
+
 .download-section {
     background: #FFFFFF;
     box-shadow: inset 0px 60px 20px -5px rgba(0, 0, 0, 0.3);
     text-align: center;
     height: 20vh;
+}
+
+#download-header {
+    padding-top: 2.2vw;
+    letter-spacing: 0.2em;
+    font-weight: 100;
+}
+
+#download-button {
+    background-image: linear-gradient(to right, #150B8D, #2E00D4, #150B8D);
+    color: #FFFFFF;
+    border: 0.2vw solid black;
+    border-radius: 1.56vw;
+    cursor: pointer;
+    font-size: 1.15vw;
+    width: 30vw;
+    height: 2.2vw;
+    text-align: center;
+    margin-top: 1.8vw;
 }
 
 .guide-section {
@@ -147,10 +176,17 @@
 }
 
 .footer-section {
-    background: #8972cb;
-    display: flex;
-    justify-content: center;
-    padding: 25px 0px;
+    background-image: linear-gradient(to left, #716ECC, #141240 65%);
+    border-top: 5px solid #2d0924;
+    height: 17vh;
+    text-align: center;
+}
+
+#footer-paragraph {
+    color: #EAD8FF;
+    font-family: 'Inter';
+    font-size: 1.5vw;
+    padding-top: 5%;
 }
 
 .nav-button {
@@ -165,7 +201,7 @@
     text-align: center;
 }
 
-.nav-button:hover {
+.nav-button:hover, #info-button:hover, #download-button:hover{
     background: #1abc9c;
 }
 
