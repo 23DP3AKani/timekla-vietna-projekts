@@ -12,13 +12,21 @@
     <body>
         <header>
             <div class="header-section">
-                <h1 class="logo">AAK</h1>
+                <h1 class="logo" id="hero">AAK</h1>
                 <nav>
-                    <button class="nav-button">Home</button>
-                    <button class="nav-button">About</button>
-                    <button class="nav-button">APP</button>
-                    <button class="nav-button">Pages</button>
-                </nav>
+                    <a href="#hero">
+                        <button class="nav-button">Home</button>
+                    </a>
+                    <a href="#main-header">
+                        <button class="nav-button">APP</button>
+                    </a>
+                    <a href="#screenshots">
+                        <button class="nav-button">Download</button>
+                    </a>
+                    <a href="#download-header">
+                        <button class="nav-button">Guide</button>
+                    </a>
+                </nav>                
             </div>
         </header>
         <main>
@@ -26,7 +34,9 @@
                 <div class="info-section">
                     <h1 id="name-surname">Aleksandrs Kaniņš</h1>
                     <h2 id="dp-grupa">DP2-3 grupas audzeknis</h2>
-                    <button id="info-button">See works</button>
+                    <a href="#main-header">
+                        <button id="info-button">See works</button>
+                    </a>        
                 </div>
                 <img id="icon" src="style/images/icon.png" alt="icon">
             </div>
@@ -35,10 +45,9 @@
             <div class="main-section">
                 <h1 id="main-header">DICTIONARY-TRANSLATOR APP</h1>
                 <p id="main-paragraph">
-                    Phasellus sed eros sit amet leo laoreet iaculis. Vestibulum
-                    sed lobortis purus. Nam elementum, purus nec dapibus elementum, elit nibh accumsan lectus,
-                    eu pretium diam sapien id lacus. Sed eget tempus elit, at fermentum nisl.
-                    Praesent non elit tempus, volutpat libero eget, ullamcorper ante.
+                    This handy app helps you translate words and create your own dictionary.
+                    The user can insert text, the program itself finds all the individual words in it and saves them to a list.
+                    After that, each word can be translated into the desired language – English, Latvian or Spanish.
                 </p>
                 <img class="circles" id="circle1" src="style/images/circle.png" alt="circle1">
                 <img class="circles" id="circle2" src="style/images/circle.png" alt="circle2">
@@ -47,10 +56,10 @@
             </div>
             <!-- DIVIDER -->
             <div class="divider-section2"></div>
-            <div class="screenshots-section">
+            <div class="screenshots-section" id="screenshots">
                 <img class="screenshots" src="style/images/screenshot_1.png" alt="screenshot1">
-                <img class="screenshots" src="style/images/screenshot_1.png" alt="screenshot2">
-                <img class="screenshots" src="style/images/screenshot_1.png" alt="screenshot3">
+                <img class="screenshots" src="style/images/screenshot_2.png" alt="screenshot2">
+                <img class="screenshots" src="style/images/screenshot_3.png" alt="screenshot3">
             </div>
             <!-- DIVIDER -->
             <div class="divider-section2"></div>
@@ -64,10 +73,10 @@
                 <div class="list-container">
                     <h3>Navigation</h3>
                     <ul class="guide-list">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>APP</li>
-                        <li>Pages</li>
+                        <a href="#hero"><li>Home</li></a>
+                        <a href="#main-header"><li>APP</li></a>
+                        <a href="#screenshots"><li>Download</li></a>
+                        <a href="#download-header"><li>Guide</li></a>
                     </ul>
                 </div>
                 <div class="list-container">
