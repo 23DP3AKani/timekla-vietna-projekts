@@ -223,7 +223,6 @@ a::after, a::before {
 .list-container {
     display: flex;
     flex-direction: column;
-
 }
 
 h3 {
